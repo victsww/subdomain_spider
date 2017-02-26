@@ -8,7 +8,7 @@ from optparse import OptionParser
 
 if __name__ == '__main__':
 	parse = OptionParser()
-	parse.add_option('-o', '--out', dest='outfile', type='string', help='output filename')
+	parse.add_option('-o', '--out', dest='outfile', type='string', help='output filename', default='sub.txt')
 	parse.add_option('-d', '--domain', dest='domain', type='string', help='main domain')
 	(option, args) = parse.parse_args()
 	url = 'http://i.links.cn/subdomain/' + option.domain + '.html'
