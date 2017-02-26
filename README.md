@@ -1,6 +1,9 @@
 #subdomain_spider
 git clone https://github.com/xiaoyecent/subdomain_spider
-子域名爬虫 接口  http://i.links.cn/subdomain/  -o支持写入文件 不加默认打印在shell中
+
+子域名爬虫 接口  http://i.links.cn/subdomain/  
+
+-o支持写入自定义文件 不加默认打印在shell中并且写入当前目录下的sub.txt下
 ```
 Usage: subdomain_spider.py [options]
 
